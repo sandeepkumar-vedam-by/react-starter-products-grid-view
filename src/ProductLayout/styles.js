@@ -72,5 +72,18 @@ export const useStyles = makeStyles((theme) => {
         padding: theme.spacing(2),
       },
     },
+    padding: {
+      padding: theme.spacing(2),
+    },
+    paddingTopBottom: {
+      paddingTop: theme.spacing(2),
+      paddingBottom: theme.spacing(2),
+    },
+    paddingBottom: {
+      paddingBottom: theme.spacing(2),
+    },
+    rightAlign: {
+      float: "right",
+    },
   };
 });
